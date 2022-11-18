@@ -1,0 +1,40 @@
+.navAnimate {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 350ms;
+}
+
+.navAnimate.active {
+    left: 0;
+    transition: 550ms;
+}
+
+.dropdownAnimate {
+    border-width: 1px;
+    display: none;
+}
+
+.dropdownAnimate.active {
+    top: 0;
+    transition: 1550ms;
+    display: block;
+    animation: growOut 300ms ease-in-out forwards;transform-origin: top center
+}
+
+/* animation dropdown */
+@keyframes growOut {
+    0% {
+        transform: scale(0)
+    }
+    80% {
+        transform: scale(1.1)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
