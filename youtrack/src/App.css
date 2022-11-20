@@ -1,0 +1,20 @@
+root {
+    --ring-unit: 8px;
+}
+
+Input, textarea {
+    padding-left: 0.5rem;
+    outline: none;
+}
+
+input, textarea::placeholder {
+    color: #aaacb2;
+}
+
+.text-color {
+    color: #d5d8df;
+}
+
+.widththings {
+    width: calc(92 * var(--ring-unit));
+}
