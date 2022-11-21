@@ -7,10 +7,10 @@ export default class Create extends React.Component {
 
         this.state = {create: false}
 
-        this.toggleCreate = this.toggleCreate.bind(this)
+        this.toggleMenu = this.toggleMenu.bind(this)
     }
 
-    toggleCreate() {
+    toggleMenu() {
         const create = this.state.create
 
         this.setState({
@@ -19,15 +19,13 @@ export default class Create extends React.Component {
     }
 
     render() {
-
             return (
                 <>
                     <div className='ml-10'>
-                        <button onClick={this.toggleCreate}>Create Issue </button>
-                        {this.state.create ?  <CreateMenu changeHandler={this.toggleCreate.bind(this)}/> : null}
+                        <button onClick={this.toggleMenu}>Create Issue </button>
+                        {this.state.create ?  <CreateMenu changeHandler={this.toggleMenu.bind(this)}/> : null}
                     </div>
                 </>
             )
-
     }
 }

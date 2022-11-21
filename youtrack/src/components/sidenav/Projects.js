@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {ProjectData} from './ProjectData'
-
-
+// TODO: comments schrijven
 export default function Project() {
 
     const [selected, setSelected] = useState(null)
