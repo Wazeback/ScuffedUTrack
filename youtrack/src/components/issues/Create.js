@@ -5,7 +5,7 @@ export default class Create extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {create: true}
+        this.state = {create: false}
 
         this.toggleCreate = this.toggleCreate.bind(this)
     }
