@@ -1,8 +1,12 @@
 Input, textarea {
     padding-left: 0.5rem;
     outline: none;
+}
+
 input, textarea::placeholder {
     color: #aaacb2;
+}
+
 select {
     -webkit-appearance: none;
     border:0;
@@ -10,30 +14,40 @@ select {
     background-color: inherit;
 }
 
-select {
-
-select:focus {
-    border-color: red;
 option {
     background-color: #181e34;
+}
+
+/* Color styles */
+.text-color {
+    color: #d5d8df;
+}
+
+.border-color {
+    border-color: #406380;
+}
+
+.bg-light {
+    background-color: #30324E;
+}
+
+.bg-dark {
+    background-color: #181e34;
+}
+
+.bg-input {
+    background-color: #4b4e69;
+}
+
+/* Scrollbar */
 body::-webkit-scrollbar {
-  width: auto;               /* width of the entire scrollbar */
+    width: auto;               /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #181e34;        /* color of the tracking area */
+    background: #181e34;        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(148 163 184);
+    background-color: rgb(148 163 184);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-.text-color {
-    color: #d5d8df;

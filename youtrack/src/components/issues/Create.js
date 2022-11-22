@@ -1,5 +1,6 @@
 import React from 'react';
 import CreateMenu from "./CreateMenu";
+import Dropdown from "../sidenav/Dropdown";
 
 export default class Create extends React.Component {
     constructor(props) {
@@ -21,10 +22,8 @@ export default class Create extends React.Component {
     render() {
             return (
                 <>
-                    <div className='ml-10'>
-                        <button onClick={this.toggleMenu}>Create Issue </button>
-                        {this.state.create ?  <CreateMenu changeHandler={this.toggleMenu.bind(this)}/> : null}
-                    </div>
+                    <button onClick={this.toggleMenu}>Create Issue </button>
+                    {this.state.create ?  <CreateMenu changeHandler={this.toggleMenu.bind(this)}/> : null}
                 </>
             )
     }

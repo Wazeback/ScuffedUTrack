@@ -5,11 +5,10 @@ import Create from "./components/issues/Create";
 
 function App() {
   return (
-      <>
-        <AgileBoard/>
-        <Sidenav/>
-        <Create/>
-      </>
+        <>
+            <Sidenav/>
+            <AgileBoard/>
+        </>
   );
 }
 
