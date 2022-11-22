@@ -19,7 +19,7 @@ export class IssuesNavbar extends React.Component {
                     <h1>status</h1>
                 </div>
                 <div className={"border-r border-gray-600 w-[28%] py-3 px-3"}>
-                    <h1>info</h1>
+                    <h1>Subject</h1>
                 </div>
                 <div className={"border-gray-600 w-full py-3 px-3 lg:block hidden"}>
                     <h4> + </h4>

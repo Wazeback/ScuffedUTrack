@@ -6,7 +6,6 @@ import Create from "./components/issues/Create";
 function App() {
   return (
         <>
-            <Sidenav/>
             <AgileBoard/>
         </>
   );

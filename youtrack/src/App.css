@@ -9,8 +9,6 @@ input, textarea::placeholder {
 
 select {
     -webkit-appearance: none;
-    border:0;
-    outline:0;
     background-color: inherit;
 }
 
