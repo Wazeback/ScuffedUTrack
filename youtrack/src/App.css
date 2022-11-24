@@ -10,6 +10,11 @@ input, textarea::placeholder {
 select {
     -webkit-appearance: none;
     background-color: inherit;
+    outline: none;
+}
+
+select:focus {
+    outline: none;
 }
 
 option {

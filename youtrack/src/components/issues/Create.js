@@ -1,6 +1,5 @@
 import React from 'react';
 import CreateMenu from "./CreateMenu";
-import Dropdown from "../sidenav/Dropdown";
 
 export default class Create extends React.Component {
     constructor(props) {
