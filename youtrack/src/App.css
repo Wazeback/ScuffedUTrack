@@ -21,9 +21,21 @@ option {
     background-color: #181e34;
 }
 
-/* Color styles */
 .text-color {
-    color: #d5d8df;
+  color: #d5d8df;
+}
+.bg-div {
+  background-color: #4b4e69;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .border-color {
