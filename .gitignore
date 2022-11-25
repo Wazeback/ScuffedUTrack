@@ -1,0 +1,15 @@
+youtrack/.idea/
+youtrack/.vscode/
+/youtrack/node_modules/
+youtrack/build
+youtrack/.DS_Store
+*.tgz
+my-app*
+youtrack/template/src/__tests__/__snapshots__/
+youtrack/lerna-debug.log
+youtrack/npm-debug.log*
+youtrack/yarn-debug.log*
+youtrack/yarn-error.log*
+youtrack//.changelog
+youtrack/.npm/
+youtrack/yarn.lock
