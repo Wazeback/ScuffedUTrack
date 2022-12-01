@@ -38,6 +38,7 @@ class Create extends Component{
 
     handleSubmit = (event) => {
         event.preventDefault();
+        console.log(this.state.project_id);
         const packets = {
             name: this.state.name,
             project_id: this.state.project_id,
@@ -63,7 +64,7 @@ class Create extends Component{
             <div>
                 <form>
                     <input type="text" name="name" onChange={this.name} value={this.state.name}/>
-                    <select name="project_id" id={"project_id"}>
+                    <select name="project_id" id={"project_id"} onChange={this.project_id}>
                         {this.state.projects.status ? this.state.projects.projects.map((Data, i) => {
                             return(
                                 <>
@@ -71,7 +72,7 @@ class Create extends Component{
                                 </>
                                 )
                         }) : <option name="loading" value={"loading in projects"}>loading in projects</option> }
-                        {console.log(this.state.projects.projects)}
+//                       {console.log(this.state.projects.projects)}
                     </select>
                     <input type="date" name="start" onChange={this.start} value={this.state.start}/>
                     <input type="date" name="end" onChange={this.end} value={this.state.end}/>
