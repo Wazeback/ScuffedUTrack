@@ -1,14 +1,11 @@
-// import './App.css';
-import { AgileBoard } from './components/agileboard/AgileBoard';
-import Sidenav from "./components/sidenav/Sidenav";
-// import Create from "./components/issues/Create";
-import Create from "./components/sprints/Create"
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-        <>
-            <Create/>
-        </>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
   );
 }
 
