@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ScuffedUTrack.iml" filepath="$PROJECT_DIR$/.idea/ScuffedUTrack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ScuffedUTrackBackend/.idea/youtrackbe.iml" filepath="$PROJECT_DIR$/../ScuffedUTrackBackend/.idea/youtrackbe.iml" />
+    </modules>
+  </component>
+</project>
