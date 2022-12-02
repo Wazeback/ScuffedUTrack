@@ -12,7 +12,7 @@ export default class Issues extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://127.0.0.1:8000/api/sprint`)
+        axios.get('http://127.0.0.1:8000/api/sprint')
             .then(res => {
                 const sprintData = res.data;
                 this.setState({ sprintData });
