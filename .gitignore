@@ -1,15 +1,24 @@
-youtrack/.idea/
-youtrack/.vscode/
-/youtrack/node_modules/
-youtrack/build
-youtrack/.DS_Store
-*.tgz
-my-app*
-youtrack/template/src/__tests__/__snapshots__/
-youtrack/lerna-debug.log
-youtrack/npm-debug.log*
-youtrack/yarn-debug.log*
-youtrack/yarn-error.log*
-youtrack//.changelog
-youtrack/.npm/
-youtrack/yarn.lock
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

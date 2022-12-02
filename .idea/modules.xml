@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ScuffedUTrack.iml" filepath="$PROJECT_DIR$/.idea/ScuffedUTrack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ScuffedUTrackBackend/.idea/youtrackbe.iml" filepath="$PROJECT_DIR$/../ScuffedUTrackBackend/.idea/youtrackbe.iml" />
     </modules>
   </component>
 </project>
