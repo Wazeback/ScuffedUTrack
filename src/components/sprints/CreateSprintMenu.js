@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import axios from "axios";
 
-class CreateSprintMenu extends Component {
+export default class CreateSprintMenu extends React.Component {
     constructor(props) {
         super(props);
 
@@ -10,7 +10,7 @@ class CreateSprintMenu extends Component {
             project_id: '',
             start: '',
             end: '',
-            projects: []
+            projectsData: []
         }
 
         this.name = this.name.bind(this);
@@ -26,10 +26,10 @@ class CreateSprintMenu extends Component {
 
     componentDidMount() {
         axios.get(`http://127.0.0.1:8000/api/projects`)
-            .then(res => {
-                const projects = res.data;
-                this.setState({ projects });
-            })
+        .then(res => {
+            const projectsData = res.data;
+            this.setState({ projectsData });
+        })
     }
 
     name(event) {this.setState({name: event.target.value});}
@@ -50,12 +50,12 @@ class CreateSprintMenu extends Component {
 
 
         axios.post('http://127.0.0.1:8000/api/sprint/create', packets)
-            .then(
-                response => alert(JSON.stringify(response.data))
-            )
-            .catch(error => {
-                console.log("ERROR:: ",error.response.data);
-            });
+        .then(
+            response => alert(JSON.stringify(response.data))
+        )
+        .catch(error => {
+            console.log("ERROR:: ",error.response.data);
+        });
     }
 
 
@@ -64,25 +64,29 @@ class CreateSprintMenu extends Component {
             <>
                 <form className='absolute max-w-[520px] flex flex-row bg-light rounded-md'>
                     <div className='flex flex-col px-2 py-2.5'>
-                        <input type="text" name="name" onChange={this.name} value={this.state.name} required className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
-                        <h4>start date</h4><input type="date" name="start" onChange={this.start} value={this.state.start} required className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
-                        <h4>end date</h4><input type="date" name="end" onChange={this.end} value={this.state.end} required className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
-
-
-                                    <div className='group'>
-                                        <div className='flex items-center py-2 px-2.5 text-sm text-color'>
-                                            <span className='w-3/5'>title</span>
-                                                    <select className='rounded-md border border-color px-1 py-1 text-color bg-[#4b4e69] outline-none '>
-                                                    </select>
-                                        </div>
-                                    </div>
-                                    <input className={'border border-color rounded-md px-2 py-2'} />
-                            )
-
+                        <span className='w-3/5 text-color'>name:</span>
+                        <input type="text" name="name" onChange={this.name} value={this.state.name} className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
+                        <span className='w-3/5 text-color'>start date:</span>
+                        <input type="date" name="start" onChange={this.start} value={this.state.start}  className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
+                        <span className='w-3/5 text-color'>end date:</span>
+                        <input type="date" name="end" onChange={this.end} value={this.state.end}  className='w-full h-[24px] mb-3 rounded-md text-color bg-[#4b4e69] border border-color outline-none'/>
+                        <span className='w-3/5 text-color'>project:</span>
+                        <div className='flex items-center text-sm text-color'>
+                            <select name="project_id" id={"project_id"} defaultValue={""} onChange={this.project_id} className='rounded-md border border-color px-1 py-1 text-color bg-[#4b4e69] outline-none'>
+                                {this.state.projectsData.status ? this.state.projectsData.projects.map((Data, i) => {
+                                    return(
+                                        <>
+                                            <option name="project_id" value={Data.id}>{Data.name}</option>
+                                        </>
+                                    )
+                                }) : <option name="loading" >loading in projects</option> }
+                                <option>please select a project</option>
+                            </select>
+                            <button type="submit" onClick={this.handleSubmit} className='rounded-md border ml-2  border-color px-1 py-1 text-color bg-[#4b4e69] outline-none'>Create</button>
+                        </div>
                     </div>
                 </form>
             </>
         )
     }
 }
-export default CreateSprintMenu;

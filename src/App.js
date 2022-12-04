@@ -3,9 +3,9 @@ import './App.css';
 import {AgileBoard} from "./components/agileboard/AgileBoard";
 import {Dashboard} from "./components/dashboard/Dashboard";
 import {AdminDashboard} from "./components/admin/AdminDashboard";
-// import * as dotenv from "dotenv";
-// dotenv.config();
-//require('dotenv').config();
+import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
+import CreateProjectMenu from "./components/projects/CreateProjectMenu";
+
 
 function App() {
   return (
@@ -14,7 +14,8 @@ function App() {
           {/*<AgileBoard/>*/}
           {/*<Dashboard/>*/}
           {/*<AdminDashboard/>*/}
-          <CreateSprintMenu/>
+          {/*{<CreateSprintMenu/>}*/}
+          {/*{<CreateProjectMenu/>}*/}
       </>
   );
 }
