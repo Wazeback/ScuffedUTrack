@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Dropdown extends React.Component {
 
@@ -29,6 +30,9 @@ export default class Dropdown extends React.Component {
                             <li>Username</li>
                             <li>Email</li>
                             <li>Group</li>
+                            <li>
+                                <Link to="/">Logout</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

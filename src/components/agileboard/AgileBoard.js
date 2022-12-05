@@ -2,7 +2,7 @@ import { Header } from './Header';
 import Issues from './Issues';
 import React from 'react';
 
-export class AgileBoard extends React.Component {
+export default class AgileBoard extends React.Component {
 
     render() {
         return (
