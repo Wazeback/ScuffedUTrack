@@ -7,10 +7,10 @@
 
 
 # IDE
-.idea
-.fleet
-.vsc
-.code
+/.idea
+/.fleet
+/.vsc
+/.code
 
 # testing
 /coverage
