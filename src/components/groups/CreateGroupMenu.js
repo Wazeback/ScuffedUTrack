@@ -9,7 +9,7 @@ export default class CreateGroupMenu extends React.Component {
 
         this.state = {
             name: '',
-            id: [],
+            user_id: [],
             start: '',
             end: '',
             GroupData: [],
@@ -18,11 +18,6 @@ export default class CreateGroupMenu extends React.Component {
 
         this.name = this.name.bind(this);
 
-        const options = [
-            { value: 'chocolate', label: 'Chocolate' },
-            { value: 'strawberry', label: 'Strawberry' },
-            { value: 'vanilla', label: 'Vanilla' }
-        ]
     }
 
     closeMenu = (e) => {
@@ -30,7 +25,10 @@ export default class CreateGroupMenu extends React.Component {
     }
 
     handleChange(e){
-        this.setState({id:e.value})
+        var id = e.map(function(Data) {
+            return Data.value;
+        });
+        this.setState({user_id: id})
     }
 
     componentDidMount() {
@@ -48,7 +46,7 @@ export default class CreateGroupMenu extends React.Component {
     }
 
     name(event) {this.setState({name: event.target.value});}
-    user_id(event) {this.setState({user_id: [...this.state.user_id, ...event.target.value]});}
+    user_id(event) {this.setState({user_id: [this.state.user_id]});}
 
 
     handleSubmit = (event) => {
@@ -58,7 +56,7 @@ export default class CreateGroupMenu extends React.Component {
             user_id: this.state.user_id,
         };
 
-        // console.log(this.state.selectOptions);
+        console.log(packets);
 
         axios.post('http://127.0.0.1:8000/api/group/create', packets)
             .then(

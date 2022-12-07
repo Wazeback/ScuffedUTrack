@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="334bbbfe-1b06-4d5f-ab34-d3630211b16f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/groups/CreateGroupMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groups/CreateGroupMenu.js" afterDir="false" />
     </list>
@@ -41,7 +38,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/laragon/www/ScuffedUTrack",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.updates",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
