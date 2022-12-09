@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdminChartBurndown } from './AdminChartBurndown';
+import  AdminChartBurndown from './AdminChartBurndown';
 import AdminCreateProject from './AdminCreateProject';
 
 export class AdminChart extends React.Component {

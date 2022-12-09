@@ -1,4 +1,5 @@
 import React,{ useEffect, useRef, useState } from "react";
+import Sidenav from "../sidenav/Sidenav";
 
 
 export default function DashHeader() {
@@ -14,13 +15,10 @@ export default function DashHeader() {
         setCurrentSeconds(newDate.current.getFullYear());
     }, 1000);
     const nowTime = `${currentHours}-${currentMinutes}-${currentSeconds}`;
-    useEffect(() => {
-        console.log(nowTime);
-    });
     return (
         <>
-            <h1 className={"text-2xl m-1"}>=</h1>
-            <h1 className={"text-2xl m-1"}>Youtrack</h1>
+
+            <Sidenav className={"text-4xl m-5 text-white"}>Youtrack</Sidenav>
             <h1 className={"text-2xl m-1"}> het is vandaag {nowTime}</h1>
         </>
     );

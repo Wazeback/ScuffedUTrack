@@ -27,7 +27,7 @@ export default class Issues extends React.Component {
                 <IssuesHeader/>
                 <div className='flex flex-col'>
                     <IssuesNavbar/>
-                    {this.state.sprintData.sprint ? this.state.sprintData.sprint.map((Data, i) => {
+                    {this.state.sprintData.status ? this.state.sprintData.sprint.map((Data, i) => {
                             return (
                                 <>
                                 {Data.issues.map((issue, i) => {

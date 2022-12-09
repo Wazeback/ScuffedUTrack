@@ -12,8 +12,8 @@ function App() {
 
       <>
           {/*<AgileBoard/>*/}
-          {/*<Dashboard/>*/}
-          {/*<AdminDashboard/>*/}
+          <Dashboard/>
+          <AdminDashboard/>
           {/*{<CreateSprintMenu/>}*/}
           {/*{<CreateProjectMenu/>}*/}
       </>

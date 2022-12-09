@@ -1,18 +1,34 @@
 import React from "react"
+import axios from "axios";
 
-const FilterSprint = ()=>(
-    <div className={"m-2 text-2xl"}>
-        <a>periode 1</a><br/>
-        <a className={"ml-5"}>sprint 1</a><br/>
-        <a className={"ml-6"}>sprint 2</a><br/>
-        <a className={"ml-7"}>sprint 3</a><br/>
-        <a className={"ml-8"}>sprint 4</a><br/>
-        <a>periode 2</a><br/>
-        <a>periode 3</a><br/>
-        <a>periode 4</a>
-    </div>
-)
+export class FilterSprint extends React.Component {
 
 
+        state = {
+                sprintData: [],
+        }
 
-export default FilterSprint
+        componentDidMount() {
+                axios.get('http://127.0.0.1:8000/api/sprints')
+                    .then(res => {
+                            const sprintData = res.data;
+                            this.setState({sprintData});
+
+                    })
+        }
+
+        render() {
+                return (
+                    <>
+                        {this.state.sprintData.status ? this.state.sprintData.sprint.map((Data, i) => {
+                            return (
+                                <div key={Data.id}
+                                    className={"h-[90%] flex flex-col rounded-sm place-content-center text-2xl items-center w-[80%]"}>
+                                    <a>{Data.name}</a><br/>
+                                </div>
+                            )
+                        }) : null}
+                    </>
+                )
+        }
+}
