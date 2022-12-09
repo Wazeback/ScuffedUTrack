@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="334bbbfe-1b06-4d5f-ab34-d3630211b16f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ScuffedUTrack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48958b5c-6d83-4d62-ad51-c5ca4103eb34/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/agileboard/AgileBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/AgileBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/agileboard/Issues.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/Issues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/issues/CreateMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/issues/CreateMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidenav/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidenav/Dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sprints/CreateSprintMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sprints/CreateSprintMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/app/Models/Issue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/app/Models/Issue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +36,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fixed_forms_axios" />
+        <entry key="$PROJECT_DIR$" value="routing" />
+        <entry key="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend" value="issue_create" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,9 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/hollywood&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ScuffedUTrackBackend\app\Http\Controllers\ApiControllers" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +91,20 @@
       <workItem from="1669975852782" duration="138000" />
       <workItem from="1669976016996" duration="2785000" />
       <workItem from="1670097639055" duration="14391000" />
+      <workItem from="1670398799203" duration="629000" />
+      <workItem from="1670399485286" duration="1273000" />
+      <workItem from="1670400796203" duration="207000" />
+      <workItem from="1670401014833" duration="41000" />
+      <workItem from="1670401066031" duration="24000" />
+      <workItem from="1670401100278" duration="23000" />
+      <workItem from="1670401133414" duration="139000" />
+      <workItem from="1670401288976" duration="25000" />
+      <workItem from="1670401323905" duration="593000" />
+      <workItem from="1670403134975" duration="215000" />
+      <workItem from="1670403357892" duration="15261000" />
+      <workItem from="1670484135108" duration="16217000" />
+      <workItem from="1670517894756" duration="5120000" />
+      <workItem from="1670571557894" duration="2632000" />
     </task>
     <servers />
   </component>
@@ -81,11 +116,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

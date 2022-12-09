@@ -8,6 +8,8 @@ import './App.css';
 import reportWebVitals from './reportWebVitals';
 import AgileBoard from "./components/agileboard/AgileBoard";
 import Login from "./components/login/Login";
+import CreateProjectMenu from "./components/projects/CreateProjectMenu";
+import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
 
 export default function App() {
     return (

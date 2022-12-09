@@ -5,10 +5,7 @@ export class IssuesNavbar extends React.Component {
     render() {
         return (
             <div className={"flex border border-gray-600 bg-[#30324E] rounded-t-lg"}>
-                <div className={"border-r border-gray-600 py-3 px-3"}>
-                    <div className={"border border-gray-600 h-full w-[24px]"}>
-                    </div>
-                </div>
+                <div className={"border-r border-gray-600 w-[24px]"}/>
                 <div className={"border-r border-gray-600 w-[35%] py-3 px-3"}>
                     <h1>titel</h1>
                 </div>

@@ -10,14 +10,13 @@ export default class CreateSprintMenu extends React.Component {
             project_id: '',
             start: '',
             end: '',
-            projectsData: []
+            projectsData: [],
         }
 
         this.name = this.name.bind(this);
         this.project_id = this.project_id.bind(this);
         this.start = this.start.bind(this);
         this.end = this.end.bind(this);
-
     }
 
     closeMenu = (e) => {

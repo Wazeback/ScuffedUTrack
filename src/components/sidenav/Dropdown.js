@@ -20,7 +20,6 @@ export default class Dropdown extends React.Component {
     }
 
     render() {
-        console.log(this.state.drop)
         return (
             <>
                 <div className='bg-[#4b4e69] h-1/3 w-full p-5 flex flex-col items-center'>
