@@ -7,9 +7,8 @@ import {
     LineElement,
     Title,
     Tooltip,
-    Legend, Chart,
-} 
-from 'chart.js';
+    Legend,
+} from 'chart.js';
 import {Line} from 'react-chartjs-2';
 import axios from "axios";
 
@@ -23,8 +22,7 @@ ChartJS.register(
     Legend
 );
 
-
-function AdminChartBurndown(props) {
+function SprintBurndown(props) {
 
     const [data, setData] = useState(null);
 
@@ -33,7 +31,7 @@ function AdminChartBurndown(props) {
         plugins: {
             title: {
                 display: true,
-                text: 'burndown',
+                text: 'Chart.js Line Chart',
             },
         },
     };
@@ -127,4 +125,4 @@ function AdminChartBurndown(props) {
     );
 }
 
-export default AdminChartBurndown;
+export default SprintBurndown;

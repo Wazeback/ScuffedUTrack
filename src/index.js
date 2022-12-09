@@ -12,6 +12,7 @@ import CreateProjectMenu from "./components/projects/CreateProjectMenu";
 import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
 import CreateYearMenu from "./components/years/CreateYearMenu";
 import { AdminDashboard } from "./components/admin/AdminDashboard";
+import { Dashboard } from "./components/dashboard/Dashboard";
 
 export default function App() {
     return (
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/agileBoard" element={<AgileBoard />}/>
                     <Route path="/createyearmenu" element={<CreateYearMenu/>}/>
                     <Route path="/admindasboard" element={<AdminDashboard/>}/>
+                    <Route path="/dashboard" element={<Dashboard/>}/>
             </Routes>
         </BrowserRouter>
     );

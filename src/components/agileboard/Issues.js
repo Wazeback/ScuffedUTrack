@@ -29,6 +29,7 @@ export default class Issues extends React.Component {
                     <IssuesNavbar/>
                     {this.state.sprintData.sprint ? this.state.sprintData.sprint.map((Data, i) => {
                         console.log(Data)
+
                             return (
                                 <>
                                 {Data.issues.map((issue, i) => {

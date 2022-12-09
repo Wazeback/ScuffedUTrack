@@ -26,9 +26,9 @@ export default class Sidenav extends React.Component {
         return(
             <>
                 <div className='navbar flex'>
-                    <button className='text-4xl text-white' onClick={this.toggleNav}>Youtrack</button>
+                    <button className='text-4xl m-2 text-white' onClick={this.toggleNav}>Youtrack</button>
                 </div>
-                <nav className={this.state.open ? 'navAnimate bg-[#4b4e69] active' : 'navAnimate bg-[#4b4e69]'} >
+                <nav className={this.state.open ? 'navAnimate bg-[#4b4e69] z-50 active' : 'navAnimate bg-[#4b4e69]'} >
                     <div className='w-full'>
                         <button className='text-white' onClick={this.toggleNav}>×</button>
                         <Dropdown/>

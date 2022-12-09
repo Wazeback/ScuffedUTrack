@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdminChartBurndown } from './AdminChartBurndown';
+import  AdminChartBurndown from './AdminChartBurndown';
 import AdminCreateProject from './AdminCreateProject';
 import CreateProjectMenu from "./../projects/CreateProjectMenu";
 import axios from "axios";
