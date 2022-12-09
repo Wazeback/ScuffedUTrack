@@ -11,6 +11,7 @@ import Login from "./components/login/Login";
 import CreateProjectMenu from "./components/projects/CreateProjectMenu";
 import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
 import CreateYearMenu from "./components/years/CreateYearMenu";
+import { AdminDashboard } from "./components/admin/AdminDashboard";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                 <Route path="/" element={<Login />}/>
                     <Route path="/agileBoard" element={<AgileBoard />}/>
                     <Route path="/createyearmenu" element={<CreateYearMenu/>}/>
+                    <Route path="/admindasboard" element={<AdminDashboard/>}/>
             </Routes>
         </BrowserRouter>
     );
