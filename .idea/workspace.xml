@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="334bbbfe-1b06-4d5f-ab34-d3630211b16f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/components/agileboard/Issues.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/Issues.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" afterDir="false" />
@@ -17,6 +18,9 @@
       <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/components/groups/CreateGroupMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/groups/CreateGroupMenu.js" afterDir="false" />
+>>>>>>> fixed_forms_axios
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +64,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -71,6 +76,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/laragon/www/ScuffedUTrack",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.updates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+>>>>>>> fixed_forms_axios
   }
 }</component>
   <component name="RecentsManager">
@@ -91,6 +112,7 @@
       <workItem from="1669975852782" duration="138000" />
       <workItem from="1669976016996" duration="2785000" />
       <workItem from="1670097639055" duration="14391000" />
+<<<<<<< HEAD
       <workItem from="1670398799203" duration="629000" />
       <workItem from="1670399485286" duration="1273000" />
       <workItem from="1670400796203" duration="207000" />
@@ -105,6 +127,9 @@
       <workItem from="1670484135108" duration="16217000" />
       <workItem from="1670517894756" duration="5120000" />
       <workItem from="1670571557894" duration="2632000" />
+=======
+      <workItem from="1670353251213" duration="1367000" />
+>>>>>>> fixed_forms_axios
     </task>
     <servers />
   </component>

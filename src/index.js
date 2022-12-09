@@ -10,6 +10,7 @@ import AgileBoard from "./components/agileboard/AgileBoard";
 import Login from "./components/login/Login";
 import CreateProjectMenu from "./components/projects/CreateProjectMenu";
 import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
+import CreateYearMenu from "./components/years/CreateYearMenu";
 
 export default function App() {
     return (
@@ -17,7 +18,7 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Login />}/>
                     <Route path="/agileBoard" element={<AgileBoard />}/>
-
+                    <Route path="/createyearmenu" element={<CreateYearMenu/>}/>
             </Routes>
         </BrowserRouter>
     );

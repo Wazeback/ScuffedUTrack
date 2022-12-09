@@ -17,6 +17,9 @@ export default class Login extends React.Component {
                         <li>
                             <Link to="/agileBoard">Agile-board</Link>
                         </li>
+                        <li>
+                            <Link to="/createyearmenu">Create Year Menu</Link>
+                        </li>
                     </ul>
                 </div>
 
