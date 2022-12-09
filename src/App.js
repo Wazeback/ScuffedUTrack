@@ -15,10 +15,9 @@ function App() {
       <>
           {/*<AgileBoard/>*/}
           {/*<Dashboard/>*/}
-          {/*<AdminDashboard/>*/}
+          <AdminDashboard/>
           {/*{<CreateSprintMenu/>}*/}
           {/*{<CreateProjectMenu/>}*/}
-          {<CreateYearMenu/>}
       </>
   );
 }
