@@ -3,9 +3,7 @@ import {ProjectData} from "./ProjectData";
 // TODO: comments schrijven
 export default class AdminProjectMenu extends React.Component {
 
-    closeMenu = (e) => {
-        this.props.changeHandler(e);
-    }
+
 
     render() {
         return (
