@@ -13,8 +13,9 @@ import CreateSprintMenu from "./components/sprints/CreateSprintMenu";
 import CreateYearMenu from "./components/years/CreateYearMenu";
 import { AdminDashboard } from "./components/admin/AdminDashboard";
 import { Dashboard } from "./components/dashboard/Dashboard";
-import CreateGroupMenu from "./components/groups/CreateGroupMenu"
-import DeleteSprintMenu from "./components/sprints/DeleteSprintMenu"
+import CreateGroupMenu from "./components/groups/CreateGroupMenu";
+import DeleteSprintMenu from "./components/sprints/DeleteSprintMenu";
+import DeleteProjectMenu from "./components/projects/DeleteProjectMenu";
 
 export default function App() {
     return (
@@ -26,6 +27,7 @@ export default function App() {
                     <Route path="/admindasboard" element={<AdminDashboard/>}/>
                     <Route path="/dashboard" element={<Dashboard/>}/>
                     <Route path="/deletesprintmenu" element={<DeleteSprintMenu/>}/>
+                    <Route path="/deleteprojectmenu" element={<DeleteProjectMenu/>}/>
             </Routes>
         </BrowserRouter>
     );
