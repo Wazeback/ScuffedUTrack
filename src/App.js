@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from 'images/logoIcon.PNG';
 import './App.css';
 import {AgileBoard} from "./components/agileboard/AgileBoard";
 import {Dashboard} from "./components/dashboard/Dashboard";

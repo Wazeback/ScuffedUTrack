@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from "axios";
 
-export default class CreateProjectMenu extends React.Component {
+export default class EditYearMenu extends React.Component {
     constructor(props) {
         super(props);
 
@@ -31,12 +31,14 @@ export default class CreateProjectMenu extends React.Component {
         };
 
 
-        axios.put(`http://127.0.0.1:8000/api/year/edit/${this.state.id}`, packets)
+        axios.put(`http://127.0.0.1:8000/api/year/update/${this.state.id}`, packets)
             .then(
                 response => alert(JSON.stringify(response.data))
             )
             .catch(error => {
-                console.log("ERROR:: ",error.response.data);
+                console.log("ERROR:: ", error.response.data.message);
+                alert("ERROR:: " + error.response.data.message);
+
             });
     }
 
