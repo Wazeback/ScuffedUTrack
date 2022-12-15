@@ -16,9 +16,9 @@ export class AdminChart extends React.Component {
                     </select>
                     <AdminCreateProject/>
                 </div>
-
+                <div className={"bg-dark h-[100%] w-[100%] rounded-sm"}>
                 <AdminChartBurndown/>
-
+                </div>
             </div>
         )
     }

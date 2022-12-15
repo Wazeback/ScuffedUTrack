@@ -52,7 +52,9 @@ function AdminChartBurndown(props) {
             let dateLabels, completedPerDay = [];
             let ideal = [];
 
+
             // Get all dates between (and including) sprint start and end date
+            //TODO: Not working with response API
             const dates = getDaysArray(new Date(response.data.sprint[0].start), new Date(response.data.sprint[0].end));
 
 
@@ -104,13 +106,13 @@ function AdminChartBurndown(props) {
                     {
 
                         data: actual,
-                        borderColor: 'rgb(255, 99, 132)',
-                        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                        borderColor: 'rgb(255,51,96)',
+                        backgroundColor: 'rgba(255,57,98,0.5)',
                     },
                     {
                         data: ideal,
-                        borderColor: 'rgb(53, 162, 235)',
-                        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+                        borderColor: 'rgb(120,53,235)',
+                        backgroundColor: 'rgba(120,53,235,0.5)',
                     },
                 ],
             });

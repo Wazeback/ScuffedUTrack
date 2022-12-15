@@ -7,9 +7,6 @@ import SprintBurndown from "./SprintBurndown";
 
 
 export class Dashboard extends React.Component{
-
-
-
     render() {
         return (
             <>
