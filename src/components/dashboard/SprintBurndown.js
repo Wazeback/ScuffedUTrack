@@ -104,13 +104,13 @@ function SprintBurndown(props) {
                     {
 
                         data: actual,
-                        borderColor: 'rgb(255, 99, 132)',
-                        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                        borderColor: 'rgb(255,70,107)',
+                        backgroundColor: 'rgba(255,65,106,0.5)',
                     },
                     {
                         data: ideal,
-                        borderColor: 'rgb(53, 162, 235)',
-                        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+                        borderColor: 'rgb(120,53,235)',
+                        backgroundColor: 'rgba(120,53,235,0.5)',
                     },
                 ],
             });
