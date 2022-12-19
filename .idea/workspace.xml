@@ -7,16 +7,7 @@
     <list default="true" id="334bbbfe-1b06-4d5f-ab34-d3630211b16f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/agileboard/Issues.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/Issues.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/agileboard/IssuesNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/issues/CreateMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/issues/CreateMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidenav/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidenav/Dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sprints/CreateSprintMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sprints/CreateSprintMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/app/Models/Issue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/app/Models/Issue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_141218_create_issues_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/database/migrations/2022_11_17_143504_create_priorities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="routing" />
+        <entry key="$PROJECT_DIR$" value="review_pitch_2" />
         <entry key="$PROJECT_DIR$/../../../../laragon/www/ScuffedUTrackBackend" value="issue_create" />
       </map>
     </option>
@@ -62,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/hollywood&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -104,8 +96,17 @@
       <workItem from="1670403357892" duration="15261000" />
       <workItem from="1670484135108" duration="16217000" />
       <workItem from="1670517894756" duration="5120000" />
-      <workItem from="1670571557894" duration="2632000" />
+      <workItem from="1670571557894" duration="7324000" />
+      <workItem from="1670594400994" duration="2013000" />
     </task>
+    <task id="LOCAL-00001" summary="push review">
+      <created>1670574910825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670574910825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push review" />
+    <option name="LAST_COMMIT_MESSAGE" value="push review" />
   </component>
 </project>
